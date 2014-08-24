@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <item
+        android:id="@+id/start_menu_list"
+        android:title="@string/start"/>
+    <item
+        android:id="@+id/create_product"
+        android:title="@string/create_product"/>
+    <item
+        android:id="@+id/create_category"
+        android:title="@string/create_category"/>
+    <item
+        android:id="@+id/list_products"
+        android:title="@string/list_products"/>
+    <item
+        android:id="@+id/list_categories_show"
+        android:title="@string/list_categories"/>
+    <item
+        android:id="@+id/create_order"
+        android:title="@string/create_order"/>
+    <item
+        android:id="@+id/log_in"
+        android:title="@string/login"/>
+    <item
+        android:id="@+id/log_out"
+        android:title="@string/logout"/>
+
+</menu>

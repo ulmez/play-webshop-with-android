@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/shoppingbasket_one_product_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/insert_product_to_users_shoppingbasket"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description_one_product_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/description_one_product_headline"
+        android:layout_below="@+id/description_one_product_headline"
+        android:text="@string/description_text_here" />
+
+    <TextView
+        android:id="@+id/product_name_one_product_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/shoppingbasket_one_product_headline"
+        android:layout_marginTop="14dp"
+        android:text="@string/product_name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cost_one_product_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/product_name_one_product_headline"
+        android:text="@string/cost"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rrp_one_product_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cost_one_product_headline"
+        android:text="@string/rrp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/product_name_one_product_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cost_one_product_text"
+        android:layout_toRightOf="@+id/product_name_one_product_headline"
+        android:text="@string/product" />
+
+    <TextView
+        android:id="@+id/cost_one_product_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rrp_one_product_text"
+        android:layout_toRightOf="@+id/cost_one_product_headline"
+        android:text="@string/cost" />
+
+    <TextView
+        android:id="@+id/rrp_one_product_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rrp_one_product_headline"
+        android:layout_alignBottom="@+id/rrp_one_product_headline"
+        android:layout_toRightOf="@+id/rrp_one_product_headline"
+        android:text="@string/rrp" />
+
+    <TextView
+        android:id="@+id/description_one_product_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cost_one_product_text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/description"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:text="@string/product_name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rrp_headline_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cost_headline_View"
+        android:layout_below="@+id/cost_headline_View"
+        android:text="@string/rrp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/order_product_button"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/product_name"
+        android:background="#999"
+        android:text="@string/placeholder"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cost_headline_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/order_product_button"
+        android:layout_toRightOf="@+id/order_product_button"
+        android:text="@string/cost"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cost_text_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cost_headline_View"
+        android:layout_alignBottom="@+id/cost_headline_View"
+        android:layout_toRightOf="@+id/cost_headline_View"
+        android:text="@string/cost_text" />
+
+    <TextView
+        android:id="@+id/rrp_text_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rrp_headline_view"
+        android:layout_alignBottom="@+id/rrp_headline_view"
+        android:layout_toRightOf="@+id/rrp_headline_view"
+        android:text="@string/rrp_text" />
+
+    <TextView
+        android:id="@+id/description_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/description_text"
+        android:layout_below="@+id/order_product_button"
+        android:text="@string/description_headline"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description_headline"
+        android:layout_marginLeft="4dp"
+        android:text="@string/description_text" />
+
+    <Button
+        android:id="@+id/edit_product_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/cost_text_View"
+        android:text="@string/edit"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rrp_headline_view"
+        android:layout_toRightOf="@+id/order_product_button"
+        android:text="@string/categories"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/categories_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="@string/categories_text" />
+
+</RelativeLayout>

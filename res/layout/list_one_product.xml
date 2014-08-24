@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/list_one_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#fff"
+        android:dividerHeight="10dp" >
+    </ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/quantity_one_product_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quantity"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/quantity_one_product_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/set_quantity_here" />
+
+    <Button
+        android:id="@+id/insert_one_product_shoppingbasket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/place_product_in_shoppingbasket" />
+
+</LinearLayout>

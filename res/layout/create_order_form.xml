@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/order_product_name_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/product_name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/order_product_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/order_product_name_headline"
+        android:text="@string/product_name_here" />
+
+    <TextView
+        android:id="@+id/order_description_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/order_product_name_headline"
+        android:text="@string/description"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/order_description_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/order_product_name_headline"
+        android:layout_toRightOf="@+id/order_description_headline"
+        android:text="@string/description_here" />
+
+    <TextView
+        android:id="@+id/order_cost_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/order_description_headline"
+        android:text="@string/cost"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/order_cost_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/order_rrp_headline"
+        android:layout_toRightOf="@+id/order_cost_headline"
+        android:text="@string/cost_here" />
+
+    <TextView
+        android:id="@+id/order_rrp_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/order_cost_headline"
+        android:text="@string/rrp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/order_rrp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/order_rrp_headline"
+        android:layout_alignBottom="@+id/order_rrp_headline"
+        android:layout_toRightOf="@+id/order_rrp_headline"
+        android:text="@string/rrp_here" />
+
+    <TextView
+        android:id="@+id/order_quantity_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/order_rrp_headline"
+        android:text="@string/quantity"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/order_quantity_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/order_rrp_text"
+        android:layout_toRightOf="@+id/order_quantity_headline"
+        android:text="@string/quantity_here" />
+
+    <Button
+        android:id="@+id/change_quantity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/order_cost_text"
+        android:layout_alignBottom="@+id/order_cost_text"
+        android:layout_alignParentRight="true"
+        android:text="@string/edit_quantity" />
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="app_name">play-webshop-with-android</string>
+    <string name="title_activity_splash">play-webshop-with-android</string>
+    <string name="create_product">Create product</string>
+    <string name="list_products">List products</string>
+    <string name="product_name">Product name</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="cost">Cost</string>
+    <string name="edit">Buy</string>
+    <string name="rrp">Rrp</string>
+    <string name="description_headline">Description:</string>
+    <string name="description_text">Description text</string>
+    <string name="cost_text">Cost text</string>
+    <string name="rrp_text">Rrp text</string>
+    <string name="description">Description</string>
+    <string name="categories">Categories</string>
+    <string name="login_user">Login user</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_here">Login here</string>
+    <string name="category">Category</string>
+    <string name="responsible">Responsible</string>
+    <string name="insert_category_here">Insert category here</string>
+    <string name="firstname_surname">Firstname Surname</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="insert_category">Insert category</string>
+    <string name="category_name">Category name</string>
+    <string name="insert_category_name_here">Insert category name here</string>
+    <string name="staff_responsible_for_the_category">Staff responsible for the category</string>
+    <string name="product_name_here">Product name here</string>
+    <string name="description_here">Description here</string>
+    <string name="cost_here">Cost here</string>
+    <string name="rrp_here">Rrp here</string>
+    <string name="quantity">Quantity</string>
+    <string name="quantity_here">Quantity here</string>
+    <string name="edit_quantity">Edit quantity</string>
+    <string name="insert_product_to_users_shoppingbasket">Insert product to users shoppingbasket</string>
+    <string name="description_text_here">Description text here</string>
+    <string name="product">Product</string>
+    <string name="list_of_categories">List of categories</string>
+    <string name="set_quantity_here">Set quantity here</string>
+    <string name="place_product_in_shoppingbasket">Place product in shoppingbasket</string>
+    <string name="edit_quantity_of_product">Edit quantity of product</string>
+    <string name="edit_quantity_here">Edit quantity here</string>
+    <string name="send_order_form">Send order form</string>
+    <string name="send_order">Send order</string>
+    <string name="categories_text">Categories text</string>
+    <string name="start">Start</string>
+    <string name="create_category">Create category</string>
+    <string name="list_categories">List categories</string>
+    <string name="create_order">Create order</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+
+</resources>
